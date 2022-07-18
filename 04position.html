@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      body {
+        height: 150vh;
+      }
       .green {
         background-color: green;
         padding: 5px;
@@ -27,12 +30,22 @@
         display: block;
       }
       .big {
+        position: relative;
+        height: 500px;
       }
       .one {
+        position: absolute;
+        top: 50px;
+        left: 50px;
       }
       .two {
+        position: sticky;
+        top: 10px;
       }
       .three {
+        position: fixed;
+        top: 0px;
+        left: 0px;
       }
     </style>
   </head>
